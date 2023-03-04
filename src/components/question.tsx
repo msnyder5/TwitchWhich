@@ -107,40 +107,37 @@ export default function Question({
     <>
       <h2 className="text-2xl font-bold">Round {currentRound}</h2>
       <span className="grow" />
-      {/* Vote Counts */}
-      <div className="flex gap-5 w-full">
-        <div className="flex-1 text-3xl">{respondents1.size}</div>
-        <div className="flex-1 text-3xl">{respondents2.size}</div>
-      </div>
-      {/* The Options */}
-      <div className="flex gap-5 w-full">
-        <div
-          className={
-            "option-card-1" +
-            (streamerResponse == 1
-              ? " shadow-[0_0_15px_1px] shadow-purple-500"
-              : "")
-          }
-          onClick={() => setStreamerResponse(1)}
-        >
-          {question.option1}
+      <div className="flex flex-col lg:flex-row gap-5 w-full">
+        <div className="flex flex-col gap-5 flex-1 h-full">
+          <div className="text-3xl">{respondents1.size}</div>
+          <div
+            className={
+              "option-card-1 flex-1 flex items-center justify-center" +
+              (streamerResponse == 1
+                ? " shadow-[0_0_15px_1px] shadow-purple-500"
+                : "")
+            }
+            onClick={() => setStreamerResponse(1)}
+          >
+            {question.option1}
+          </div>
+          <div className="text-xl">Type 1 in chat.</div>
         </div>
-        <div
-          className={
-            "option-card-2" +
-            (streamerResponse == 2
-              ? " shadow-[0_0_15px_1px] shadow-fuchsia-500"
-              : "")
-          }
-          onClick={() => setStreamerResponse(2)}
-        >
-          {question.option2}
+        <div className="flex flex-col gap-5 flex-1">
+          <div className="text-3xl">{respondents2.size}</div>
+          <div
+            className={
+              "option-card-2 flex-1 flex items-center justify-center" +
+              (streamerResponse == 2
+                ? " shadow-[0_0_15px_1px] shadow-fuchsia-500"
+                : "")
+            }
+            onClick={() => setStreamerResponse(2)}
+          >
+            {question.option2}
+          </div>
+          <div className="text-xl">Type 2 in chat.</div>
         </div>
-      </div>
-      {/* Type # in chat. */}
-      <div className="flex gap-5 w-full">
-        <div className="flex-1 text-xl">Type 1 in chat.</div>
-        <div className="flex-1 text-xl">Type 2 in chat.</div>
       </div>
       <span className="grow" />
       <button
