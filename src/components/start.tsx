@@ -1,5 +1,6 @@
 import { useState, Dispatch, SetStateAction } from "react";
 import { Client } from "tmi.js";
+import { AiFillGithub } from "react-icons/ai";
 
 export type Settings = {
   twitchClient: Client;
@@ -58,9 +59,12 @@ export default function StartMenu({ callback }: StartMenuProps) {
   return (
     <>
       <span className="grow" />
-      <div>
+      <div className="flex flex-col items-center">
         <h1 className="text-8xl font-black">Twitch Which</h1>
         <h2>An interactive game for Twitch streamers.</h2>
+        <a href="https://github.com/msnyder5/TwitchWhich" target="_blank">
+          <AiFillGithub className="text-5xl" />
+        </a>
       </div>
 
       <span className="grow" />
@@ -90,7 +94,7 @@ export default function StartMenu({ callback }: StartMenuProps) {
           </a>
         </h3>
         <h3 className="px-10 py-3 bg-primary-800 rounded-lg">
-          Suggest more questions to be on this website{" "}
+          Help make this site better! Suggest questions{" "}
           <a href="https://forms.gle/mKHBicBJsMhZDjx89" target="_blank">
             <u>here</u>.
           </a>
