@@ -37,6 +37,7 @@ export default function Scoreboard({
           </li>
         ))}
       </ol>
+      <span className="grow" />
       <button className="button-hover" onClick={() => nextRoundCallback()}>
         {final ? "Exit Game" : "Next Round"}
       </button>
