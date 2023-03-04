@@ -12,7 +12,7 @@ export default function App() {
   }
 
   return (
-    <div className="flex flex-col gap-5 place-items-center p-10 min-h-full w-full overflow-y-auto">
+    <div className="flex flex-col gap-5 place-items-center p-10 min-h-full w-full overflow-y-auto overflow-x-hidden">
       {settings && inProgress ? (
         <Game settings={settings} setInProgress={setInProgress} />
       ) : (
