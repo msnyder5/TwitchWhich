@@ -1,0 +1,45 @@
+#root {
+  @apply w-full h-full flex place-items-center justify-center text-center;
+}
+
+.button-base {
+  @apply leading-none rounded-lg;
+}
+
+.positive-button {
+  @apply button-base;
+  @apply bg-accent-700 font-semibold text-lg px-6 py-3;
+}
+
+.disabled-positive-button {
+  @apply button-base;
+  @apply bg-accent-900 font-semibold text-lg px-6 py-3 text-gray-400 cursor-default;
+}
+
+.negative-button {
+  @apply button-base;
+  @apply bg-accent-900 px-4 py-2;
+}
+
+.button-hover {
+  @apply positive-button;
+  @apply transition hover:shadow-[0_0_20px_1px] hover:shadow-accent-500/20;
+}
+
+.text-box {
+  @apply bg-primary-700 px-3 py-1 text-xl leading-none rounded focus:outline-none placeholder:text-primary-500;
+}
+
+.option-card {
+  @apply rounded-2xl py-16 flex-1 text-5xl cursor-pointer;
+}
+
+.option-card-1 {
+  @apply option-card;
+  @apply bg-gradient-to-br from-purple-500 to-purple-800;
+}
+
+.option-card-2 {
+  @apply option-card;
+  @apply bg-gradient-to-br from-fuchsia-500 to-fuchsia-800;
+}
