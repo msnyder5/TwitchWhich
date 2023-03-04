@@ -58,14 +58,23 @@ export default function StartMenu({ callback }: StartMenuProps) {
   return (
     <>
       <span className="grow" />
-      <h2 className="text-2xl font-bold">Rules</h2>
+      <div>
+        <h1 className="text-8xl font-black">Twitch Which</h1>
+        <h2>An interactive game for Twitch streamers.</h2>
+      </div>
+
+      <span className="grow" />
+      <h2 className="text-2xl font-bold">About</h2>
       <div className="flex flex-col gap-2 place-items-left text-left text-lg max-w-xl">
         <h3 className="px-10 py-3 bg-primary-800 rounded-lg">
           Each round a <b>would you rather</b> style question is asked.
         </h3>
         <h3 className="px-10 py-3 bg-primary-800 rounded-lg">
-          Points are awarded to both the option with the <b>majority vote</b>,
-          and the option that the <b>streamer chooses</b>.
+          Type <b>1</b> or <b>2</b> in chat to vote for your answer.
+        </h3>
+        <h3 className="px-10 py-3 bg-primary-800 rounded-lg">
+          Points are awarded to the option with the <b>majority vote</b> and the
+          option that the <b>streamer chooses</b>.
         </h3>
         <h3 className="px-10 py-3 bg-primary-800 rounded-lg">
           The <b>faster</b> you answer, the more points you get.
@@ -73,6 +82,18 @@ export default function StartMenu({ callback }: StartMenuProps) {
         <h3 className="px-10 py-3 bg-primary-800 rounded-lg">
           Only your <b>last answer</b> counts, but beware the time dropoff is
           sharp.
+        </h3>
+        <h3 className="px-10 py-3 bg-primary-800 rounded-lg">
+          Most of the questions are sourced from{" "}
+          <a href="https://either.io" target="_blank">
+            <u>either.io</u>.
+          </a>
+        </h3>
+        <h3 className="px-10 py-3 bg-primary-800 rounded-lg">
+          Suggest more questions to be on this website{" "}
+          <a href="https://forms.gle/mKHBicBJsMhZDjx89" target="_blank">
+            <u>here</u>.
+          </a>
         </h3>
       </div>
       <span className="grow" />
