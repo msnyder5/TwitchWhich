@@ -81,21 +81,23 @@ export default function Question({
     const numOption1 = respondents1.size;
     const numOption2 = respondents2.size;
     const scores: ChatterScores = new Map();
-    if (numOption1 >= numOption2) {
-      const streamerBoost = streamerResponse == 1 ? 200 : 100;
+    const option1Base =
+      (streamerResponse == 1 ? 100 : 0) + (numOption1 >= numOption2 ? 100 : 0);
+    const option2Base =
+      (streamerResponse == 2 ? 100 : 0) + (numOption2 >= numOption1 ? 100 : 0);
+    if (option1Base) {
       for (const [username, respondedAt] of respondents1) {
         scores.set(
           username,
-          (20 / (4 + (respondedAt - startTime) / 1000)) * streamerBoost
+          (20 / (4 + (respondedAt - startTime) / 1000)) * option1Base
         );
       }
     }
-    if (numOption2 >= numOption1) {
-      const streamerBoost = streamerResponse == 2 ? 200 : 100;
+    if (option2Base) {
       for (const [username, respondedAt] of respondents2) {
         scores.set(
           username,
-          (20 / (4 + (respondedAt - startTime) / 1000)) * streamerBoost
+          (20 / (4 + (respondedAt - startTime) / 1000)) * option2Base
         );
       }
     }

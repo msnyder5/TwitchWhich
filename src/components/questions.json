@@ -1,1 +1,305 @@
-[{ "option1": "Marvel", "option2": "DC" }]
+[
+  { "option1": "Live in Boston", "option2": "Live in New York City" },
+  { "option1": "Not be able to taste", "option2": "Not be able to smell" },
+  {
+    "option1": "Have holes put through both hands and both feet via nails and a hammer",
+    "option2": "Go for 40 days in the desert without food"
+  },
+  { "option1": "Die on The Hindenburg", "option2": "Die on The Titanic" },
+  {
+    "option1": "Be a professional Taser testee",
+    "option2": "Be a professional beanbag gun testee"
+  },
+  { "option1": "Know when you will die", "option2": "Know how you will die" },
+  {
+    "option1": "Have paparazzi follow you around",
+    "option2": "Reveal a different secret about yourself in a weekly newspaper column"
+  },
+  {
+    "option1": "Have hair covering your entire body",
+    "option2": "Be completely bald"
+  },
+  { "option1": "Wear an eyepatch", "option2": "Have a peg leg" },
+  { "option1": "Be hysterically funny", "option2": "Be absolutely beautiful" },
+  {
+    "option1": "Get electrocuted for 10 seconds",
+    "option2": "Get slapped 50 times"
+  },
+  {
+    "option1": "Work 10 hours a day four days a week",
+    "option2": "Work 8 hours a day five days a week"
+  },
+  { "option1": "Not know how to read", "option2": "Not know how to write" },
+  { "option1": "Have stretchable legs", "option2": "Have stretchable arms" },
+  {
+    "option1": "Always be sweating",
+    "option2": "Always appear shivering cold"
+  },
+  {
+    "option1": "KFC",
+    "option2": "Taco Bell"
+  },
+  { "option1": "McNuggets", "option2": "Big Macs" },
+  { "option1": "Freeze to death", "option2": "Boil to death" },
+  {
+    "option1": "Have a high salary in a job you hate",
+    "option2": "Have a low salary in a job you love"
+  },
+  { "option1": "Be able to fly", "option2": "Be able to breathe underwater" },
+  {
+    "option1": "Be a genius in a world of unintelligent people",
+    "option2": "Be unintelligent in a world of geniuses"
+  },
+  {
+    "option1": "Always know when people are lying",
+    "option2": "Always get away with lying"
+  },
+  {
+    "option1": "Tennis",
+    "option2": "Table Tennis"
+  },
+  { "option1": "Have no tongue", "option2": "Have no teeth" },
+  {
+    "option1": "Spend a year alone in a deep sea submarine",
+    "option2": "Spend a year alone in a space station"
+  },
+  { "option1": "Always tell the truth", "option2": "Always lie" },
+  {
+    "option1": "Die from hypothermia (cold)",
+    "option2": "Die from hyperthermia (heat)"
+  },
+  { "option1": "Be a nerd", "option2": "Be a jock" },
+  { "option1": "Be a hawk", "option2": "Be a shark" },
+  { "option1": "Only eat", "option2": "Only drink" },
+  {
+    "option1": "Have to sleep 3 hours everyday",
+    "option2": "Have to sleep 15 hours everyday"
+  },
+  { "option1": "Always Run", "option2": "Always Crawl " },
+  {
+    "option1": "Only listen to bagpipe music",
+    "option2": "Only listen to banjo music"
+  },
+  { "option1": "Only write in cursive", "option2": "ONLY TYPE IN CAPS" },
+  { "option1": "Skittles", "option2": "M&M's" },
+  {
+    "option1": "Only talk in third person",
+    "option2": "Never be able to call someone by name"
+  },
+  { "option1": "Be a centaur", "option2": "Be a mermaid/man" },
+  {
+    "option1": "Have every commercial be an annoying Geico ad for the rest of your life",
+    "option2": "Have every commercial be a Verizon \"Can you hear me now?\" ad for the rest of your life"
+  },
+  { "option1": "Pepsi", "option2": "Coke" },
+  {
+    "option1": "Be allergic to peanut butter",
+    "option2": "Be allergic to chocolate"
+  },
+  {
+    "option1": "Never again play a game on your computer",
+    "option2": "Never again play a console or portable device game"
+  },
+  {
+    "option1": "Have your hands switched for Dustpans",
+    "option2": "Be sweating jam instead of sweat"
+  },
+  { "option1": "Appear on Oprah", "option2": "Appear on Jerry Springer" },
+  {
+    "option1": "Have to eat the same meal, every meal for the rest of your life",
+    "option2": "Eat whatever you wanted, except, once a month you have to eat a doo doo sandwich"
+  },
+  { "option1": "Run 26 miles", "option2": "Swim 5 miles" },
+  { "option1": "Win the lottery", "option2": "Live twice as long" },
+  { "option1": "Become a superhero", "option2": "Become a supervillian" },
+  { "option1": "Have X-ray Vision", "option2": "Have laser vision" },
+  { "option1": "Be a Vampire", "option2": "Be a Werewolf" },
+  { "option1": "Have no thumbs", "option2": "Only have thumbs" },
+  {
+    "option1": "Wear only skin tight clothing",
+    "option2": "Wear clothes that are much too big"
+  },
+  {
+    "option1": "Only speak in questions",
+    "option2": "Only speak in movie quotes"
+  },
+  { "option1": "Eat fruit", "option2": "Eat vegetables" },
+  { "option1": "Win an Oscar", "option2": "Win the Nobel Prize" },
+  {
+    "option1": "Have an uncontrollable itch that attacks at sporradic times",
+    "option2": "Always have chapped lips"
+  },
+  { "option1": "Room with Snoop Dogg", "option2": "Room with Bob Marley" },
+  {
+    "option1": "Be the first person to walk on Mars via a one-way trip",
+    "option2": "Never travel to space"
+  },
+  {
+    "option1": "Always wear a top hat",
+    "option2": "Always wear a giant clock necklace"
+  },
+  { "option1": "Be an excellent singer", "option2": "Be a superb writer" },
+  { "option1": "Be telekinetic", "option2": "Be telepathic" },
+  { "option1": "Be a rock star", "option2": "Be a movie star" },
+  { "option1": "Only eat breakfast cereal", "option2": "Only eat pasta" },
+  {
+    "option1": "Be in jail for a year",
+    "option2": "Live in complete isolation in the mountains for a year"
+  },
+  { "option1": "Be Batman", "option2": "Be Superman" },
+  {
+    "option1": "Have a British accent",
+    "option2": "Have an Australian accent"
+  },
+  { "option1": "Always be hot", "option2": "Always be cold" },
+  { "option1": "Have no eyebrows", "option2": "Have a unibrow" },
+  { "option1": "Have Pokemon be real", "option2": "Superheroes exist" },
+  { "option1": "Be a cat", "option2": "Be a dog" },
+  { "option1": "Be a wizard", "option2": "Be a vampire" },
+  {
+    "option1": "Have an incredibly nice car",
+    "option2": "Own a personal helicopter"
+  },
+  { "option1": "Be rich", "option2": "Be famous" },
+  {
+    "option1": "Be famous in this lifetime",
+    "option2": "Go down in the history books"
+  },
+  {
+    "option1": "Have the ability to teleport",
+    "option2": "Be able to time travel"
+  },
+  { "option1": "Be 4 feet tall", "option2": "Be 10 feet tall" },
+  {
+    "option1": "Be a contestant on Wheel of Fortune",
+    "option2": "Be a contestant on Jeopardy"
+  },
+  { "option1": "Only speak in haiku", "option2": "Only speak in song lyrics" },
+  {
+    "option1": "Be lost in the woods at night",
+    "option2": "Stuck in a haunted house at night"
+  },
+  { "option1": "Be a sports star", "option2": "Be a celebrated academic" },
+  {
+    "option1": "Only eat stuffing for the rest of your life",
+    "option2": "Only drink gravy for the rest of your life"
+  },
+  {
+    "option1": "Only speak in words that begin with H",
+    "option2": "Not be able to say any words that have the letter E in them"
+  },
+  {
+    "option1": "Sneeze every three minutes",
+    "option2": "Always have the sensation to sneeze and never do"
+  },
+  {
+    "option1": "Live in a treehouse",
+    "option2": "Live in a floating boathouse"
+  },
+  { "option1": "Wrestle an alligator", "option2": "Wrestle a bear" },
+  {
+    "option1": "Eat fast food burgers every night",
+    "option2": "Eat Chinese Take-out every night"
+  },
+  { "option1": "Be invincible", "option2": "Be invisible" },
+  {
+    "option1": "Play a game of Quidditch",
+    "option2": "Take a field trip with Ms. Frizzle"
+  },
+  {
+    "option1": "Return a punt in an NFL game",
+    "option2": "Spend 90 seconds in the ring with Mike Tyson in his prime"
+  },
+  {
+    "option1": "Eat a container of butter",
+    "option2": "Drink a bottle of maple syrup"
+  },
+  { "option1": "Always be overdressed", "option2": "Always be underdressed" },
+  {
+    "option1": "Have to kill the animal for any meat you eat",
+    "option2": "Never eat meat again"
+  },
+  { "option1": "Stop using YouTube", "option2": "Stop using Twitch" },
+  { "option1": "Stop using YouTube", "option2": "Stop using TikTok" },
+  { "option1": "Stop using TikTok", "option2": "Stop using Twitch" },
+  {
+    "option1": "Give a speech to the whole nation",
+    "option2": "Have to sleep with tarantulas on your bed"
+  },
+  {
+    "option1": "Have to get around on all fours all the time",
+    "option2": "Only make animal noises"
+  },
+  { "option1": "Only be able to whisper", "option2": "Only be able to shout" },
+  { "option1": "Vacation in New York City", "option2": "Vacation in Tokyo" },
+  {
+    "option1": "Have uncontrollable Ear Hair",
+    "option2": "Have uncontrollable Nose Hair"
+  },
+  {
+    "option1": "Have a Monster Truck",
+    "option2": "Have a Sports Car"
+  },
+  { "option1": "Get one million dollars", "option2": "Find true love" },
+  {
+    "option1": "Only dance the charleston",
+    "option2": "Only dance the macarena"
+  },
+  {
+    "option1": "Get $20,000 worth of jewelry",
+    "option2": "Get $10,000 worth of electronics"
+  },
+  {
+    "option1": "Have your face on the $1 bill",
+    "option2": "Have your face on the $100 bill"
+  },
+  {
+    "option1": "Eat a worm straight from the ground",
+    "option2": "Snatch a fly out of the air and eat it alive"
+  },
+  {
+    "option1": "Always have mud in your shoes",
+    "option2": "Always have a pebble in your shoe"
+  },
+  {
+    "option1": "Always speak all your thoughts out loud",
+    "option2": "Never speak at all"
+  },
+  {
+    "option1": "Do 100 jumping jacks without a break",
+    "option2": "Do 25 sit-ups without a break"
+  },
+  {
+    "option1": "Live to be 200 in colonial times",
+    "option2": "Live a normal lifespan modern day"
+  },
+  {
+    "option1": "Lick the floor at a club",
+    "option2": "Lick a toilet seat at walmart"
+  },
+  { "option1": "Be Harry Potter", "option2": "Be Luke Skywalker" },
+  {
+    "option1": "Only have a 1st grade education",
+    "option2": "Live in a world where everyone else only has a 1st grade education"
+  },
+  { "option1": "Skydive", "option2": "Bungie Jump" },
+  { "option1": "Xbox", "option2": "PlayStation" },
+  { "option1": "PC Gaming", "option2": "Console Gaming" },
+  { "option1": "Marvel", "option2": "DC" },
+  { "option1": "TikTok", "option2": "Instagram" },
+  { "option1": "Burgers", "option2": "Hot Dogs" },
+  { "option1": "New York", "option2": "Los Angeles" },
+  { "option1": "Ice Cream", "option2": "Cake" },
+  { "option1": "Apple", "option2": "Windows" },
+  { "option1": "Twitter", "option2": "Reddit" },
+  { "option1": "Steak", "option2": "Seafood" },
+  { "option1": "Roller Coasters", "option2": "Water Slides" },
+  { "option1": "Netflix", "option2": "Hulu" },
+  { "option1": "Sweet", "option2": "Salty" },
+  { "option1": "Pancakes", "option2": "Waffles" },
+  { "option1": "Twitter", "option2": "Instagram" },
+  { "option1": "Action Movies", "option2": "Comedies" },
+  { "option1": "Dogs", "option2": "Cats" },
+  { "option1": "Pizza", "option2": "Tacos" },
+  { "option1": "Lay's Potato Chips", "option2": "Pringles" }
+]
