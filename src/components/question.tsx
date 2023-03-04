@@ -45,7 +45,7 @@ export default function Question({
   // Listener for scores
   client.on("message", (target, context, msg, self) => {
     const trimmed_msg = msg.trim();
-    const is_one = trimmed_msg === "1" || true;
+    const is_one = trimmed_msg === "1";
     const is_two = trimmed_msg === "2";
     if (!is_one && !is_two) {
       return;
