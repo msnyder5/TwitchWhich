@@ -144,7 +144,7 @@ export default function Question({
         className={
           streamerResponse ? "button-hover" : "disabled-positive-button"
         }
-        onClick={() => endRound()}
+        onClick={() => (streamerResponse ? endRound() : null)}
       >
         End Round
       </button>
